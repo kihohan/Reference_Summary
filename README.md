@@ -13,7 +13,7 @@
   
   해당 논문에서는 PV_DIM과 PV-DBOW을 같이 사용하는 것을 추천함.  
   
-  - [Supervised Paragraph Vector: Distributed
+- [Supervised Paragraph Vector: Distributed
 Representations of Words, Documents
 and Class Labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8653834)  
 
