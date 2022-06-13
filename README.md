@@ -23,7 +23,18 @@ and Class Labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=86538
 
 ### CV
 - [Learning a Similarity Metric Discriminatively, with Application to Face
-Verification] (http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf)
+Verification](http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf)
+
+ *  One-shot learning
+ *  다양한 이미지와 rgb벡터를 가진 이미지를 학습하게 되면 이미지를 잘 생성하지 못한다는 문제점이 있음.
+
+- [AN IMAGE IS WORTH 16X16 WORDS:
+TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pdf)
+
+ * a
+ * b  
+
+
 ### ETC
 - [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/2009.07429.pdf)
   1. Topology Structrure Preservation (Graph Topology View)
