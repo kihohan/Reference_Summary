@@ -22,6 +22,8 @@ and Class Labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=86538
   * 라벨을 일거리양, 일거리 난이도 등 요긱 데이터에 맞는 다양한 클래스를 넣어서 임베딩하여 클래스 별 Word Representation을 할 수 있음. → 잘 되면 설명력이 굉장히 높은 AI모델이 될 수 있음.
 
 ### CV
+- [Learning a Similarity Metric Discriminatively, with Application to Face
+Verification] (http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf)
 ### ETC
 - [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/2009.07429.pdf)
   1. Topology Structrure Preservation (Graph Topology View)
