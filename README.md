@@ -1,16 +1,17 @@
 # reference_summary
 
 ### NLP
-- [Distributed Representations of Sentences and Documents] (https://arxiv.org/pdf/1405.4053.pdf)  
+- [Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053.pdf)  
   PV-DIM:  
     input: 문장ID and 문장 window사이즈  
     output: window ‘다음’에 나올 단어 예측(word vectors are shared across all)  
     문장들의 같은 단어의 wordvector는 공유된다  
 
-  PV-DBOW:
-    input: 문장ID
-    output: 일정 갯수의 단어를 예측 (단어의 순서는 고려하지않음.) → randomly sampled
-  해당 논문에서는 PV_DIM과 PV-DBOW을 같이 사용하는 것을 추천함.
+  PV-DBOW:  
+    input: 문장ID  
+    output: 일정 갯수의 단어를 예측 (단어의 순서는 고려하지않음.) → randomly sampled  
+  
+  해당 논문에서는 PV_DIM과 PV-DBOW을 같이 사용하는 것을 추천함.  
 
 ### CV
 ### ETC
