@@ -17,9 +17,9 @@
 Representations of Words, Documents
 and Class Labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=8653834)  
 
- * 추후 요긱 리뷰데이터로 많은 걸 해 볼 수있는 방법론이라고 생각됨.
- * 해당 논문에서 Interpretability, Discriminative Power, Computational Efficiency을 강조함.
- * 라벨을 일거리양, 일거리 난이도 등 요긱 데이터에 맞는 다양한 클래스를 넣어서 임베딩하여 클래스 별 Word Representation을 할 수 있음. → 잘 되면 설명력이 굉장히 높은 AI모델이 될 수 있음.
+  * 추후 요긱 리뷰데이터로 많은 걸 해 볼 수있는 방법론이라고 생각됨.
+  * 해당 논문에서 Interpretability, Discriminative Power, Computational Efficiency을 강조함.
+  * 라벨을 일거리양, 일거리 난이도 등 요긱 데이터에 맞는 다양한 클래스를 넣어서 임베딩하여 클래스 별 Word Representation을 할 수 있음. → 잘 되면 설명력이 굉장히 높은 AI모델이 될 수 있음.
 
 ### CV
 ### ETC
