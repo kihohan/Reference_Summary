@@ -4,7 +4,7 @@
 [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/2009.07429.pdf)
 ### CV
 ### ETC
-- [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/2009.07429.pdf)
+-- [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/2009.07429.pdf)
   1. Topology Structrure Preservation (Graph Topology View)
   2. Semantics Preservation (Semantic View)
   3. Job Transition Patterns Preservation (Job Transition Balance View, Job Transition Duration View)
