@@ -12,6 +12,7 @@
     + output: 일정 갯수의 단어를 예측 (단어의 순서는 고려하지않음.) → randomly sampled  
   
   해당 논문에서는 PV_DIM과 PV-DBOW을 같이 사용하는 것을 추천함.  
+  -> [요약문](https://soobarkbar.tistory.com/6) (아주 설명이 잘 되어 있다.)
   
 - [Supervised Paragraph Vector: Distributed
 Representations of Words, Documents
