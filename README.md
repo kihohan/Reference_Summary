@@ -21,6 +21,18 @@ and Class Labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=86538
   * 해당 논문에서 Interpretability, Discriminative Power, Computational Efficiency을 강조함.
   * 라벨을 일거리양, 일거리 난이도 등 요긱 데이터에 맞는 다양한 클래스를 넣어서 임베딩하여 클래스 별 Word Representation을 할 수 있음. → 잘 되면 설명력이 굉장히 높은 AI모델이 될 수 있음.
 
+- [A Survey of Data Augmentation Approaches for NLP](https://arxiv.org/pdf/2105.03075.pdf)  
+
+ * SR(Synonym Replacement): 문장에서 랜덤으로 stop words가 아닌 n 개의 단어들을 선택해 임의로 선택한 동의어들 중 하나로 바꾸는 기법. ex) 배달 참 쉽네. → 배송 참 쉽네.  
+
+ * RI(Random Insertion): 문장 내에서 stop word를 제외한 나머지 단어들 중에서, 랜덤으로 선택한 단어의 동의어를 임의로 정한다. 그리고 동의어를 문장 내 임의의 자리에 넣는걸 n번 반복한다. ex) 돈이 잘 벌려요 → 돈이 너무 잘 벌려요.  
+
+ * RS(Random Swap): 무작위로 문장 내에서 두 단어를 선택하고 위치를 바꾼다. 이것도 n번 반복 ex) 인형탈 알바 너무 쉬워요. → 인형탈 너무 알바 쉬워요.  
+
+ * RD(Random Deletion): 확률 p를 통해 문장 내에 있는 각 단어들을 랜덤하게 삭제한다. ex) 일이 참 편해요. → 일이 편해요.  
+
+ * KoEDA, KorEDA  
+
 ### CV
 - [Learning a Similarity Metric Discriminatively, with Application to Face
 Verification](http://yann.lecun.com/exdb/publis/pdf/chopra-05.pdf)
