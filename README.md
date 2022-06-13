@@ -55,4 +55,11 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
     2. gig JD의 의미분석을 통한 representation 방법론
     3. gig worker의 gig_change and gig_duration
 
-  정도로 결론 내릴 수 있다.
+  정도로 결론 내릴 수 있다.  
+  
+  - [Deep Job Understanding at LinkedIn](https://arxiv.org/pdf/2006.12425.pdf)  
+
+  * Job에 domain-specific한 모델을 만듬. (확실히 어느 도메인이든 글로벌한 모델은 자기 task에 잘 맞지않는 듯 하다.  
+  * 해당 feature들을 (professional entities, including titles, skills, companies, and assessment question) representation함. (Job Standardization라고 표현함.)  
+  * 메뉴얼하게 외부데이터를 통해 데이터를 검증하는 작업도 진행함.
+  * 추천시스템, 자동완성에 DL 적용.  
