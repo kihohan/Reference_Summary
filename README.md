@@ -57,7 +57,7 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
 
   정도로 결론 내릴 수 있다.  
   
-  - [Deep Job Understanding at LinkedIn](https://arxiv.org/pdf/2006.12425.pdf)  
+- [Deep Job Understanding at LinkedIn](https://arxiv.org/pdf/2006.12425.pdf)  
 
   * Job에 domain-specific한 모델을 만듬. (확실히 어느 도메인이든 글로벌한 모델은 자기 task에 잘 맞지않는 듯 하다.  
   * 해당 feature들을 (professional entities, including titles, skills, companies, and assessment question) representation함. (Job Standardization라고 표현함.)  
