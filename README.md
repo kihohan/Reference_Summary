@@ -64,3 +64,34 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
   * 해당 feature들을 (professional entities, including titles, skills, companies, and assessment question) representation함. (Job Standardization라고 표현함.)  
   * 메뉴얼하게 외부데이터를 통해 데이터를 검증하는 작업도 진행함.
   * 추천시스템, 자동완성에 DL 적용.  
+
+
+
+
+요약 (Summary)
+요긱 서비스 데이터가 저장되는 gigdb 의 데이터 현황을 하루에 한 번 confluence에 레포팅 합니다. 
+
+배경 (Background)
+gigdb에는 요긱 서비스의 다양한 데이터들이 저장되고 있고, 해당 데이터는 mlops 계정의 S3에 업데이트 되고 있습니다. 현재는 notion에 데이터 현황이 업로드 되는데 이를 confluence로 이전 하여 한 플랫폼에서 모든 정보를 볼 수 있도록 합니다.
+
+참고 [notion reporting link]
+
+목표 (Goals)
+S3에서 gigdb data를 가져온다. (s3://ent-bc-datalake/service-yogig/prod/db/gigdb/)
+
+gigdb data를 조회하고 필요한 지표를 뽑아낸다.
+
+gigdb의 데이터 현황을 confluence에서 볼 수 있도록 한다. (confluence API python guide)
+
+하루에 한 번씩 새로운 페이지를 만들어 현황을 갱신 한다. (링크)
+
+목표가 아닌 것 (Non-Goals)
+새로운 지표의 발굴
+
+데이터 시각화
+
+계획 (Plan)
+계획
+
+이외 고려 사항들 (Other Considerations)
+마일스톤 (Milestones)
