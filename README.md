@@ -42,10 +42,16 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
 
   * 이미지를 text sequence처럼 사용하여 예측 class를 맞추도록 학습.
   * 비교적 CNN보다 성능이 좋음. (but 데이터가 적으면 성능 급감.)
-  * 개인적인로 사용결과 ImageNet로 학습된 모델로도 representation이 잘됨 ([timm](https://github.com/rwightman/pytorch-image-models)으로 사용하기 편함.)  
+  * 사용결과 ImageNet로 학습된 모델로도 representation이 잘됨 ([timm](https://github.com/rwightman/pytorch-image-models)으로 사용하기 편함.)  
+
+- [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/2010.11929.pdf)
+
+  * Training: img, lable -> MODEL + ARCFACE -> logit, label -> CrossEntropyLoss
+  * 2차원시각화는 논문에서 제시한 1,500개 정도가 잘 되고, 2,000개만 넘어가면 이쁘게 안나옴.(MNIST)
+  * 구현된 코드가 너~~~~무 다양함.
 
 ### ETC
-- [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/2009.07429.pdf)
+- [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/1801.07698v3.pdf)
   1. Topology Structrure Preservation (Graph Topology View)
   2. Semantics Preservation (Semantic View)
   3. Job Transition Patterns Preservation (Job Transition Balance View, Job Transition Duration View)
