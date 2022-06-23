@@ -47,6 +47,7 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
 - [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
 
   * triplet loss
+  * anchor, positive, negative 샘플을 입력하여 3개의 출력을 나오게함. 그 출력으로 triplet loss를 계산하여 anchor와 positive가 가깝게하면서 anchor와 negative는 멀게하도록 학습한다. (유클리드 거리 이용)
 
 - [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/2010.11929.pdf)
 
