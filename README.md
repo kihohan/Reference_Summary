@@ -1,4 +1,4 @@
-# reference_summary
+# Reference Summary
 
 ### NLP
 - [Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053.pdf)  -> [요약문](https://soobarkbar.tistory.com/6) (아주 설명이 잘 되어 있다.)
@@ -43,6 +43,10 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
   * 이미지를 text sequence처럼 사용하여 예측 class를 맞추도록 학습.
   * 비교적 CNN보다 성능이 좋음. (but 데이터가 적으면 성능 급감.)
   * 사용결과 ImageNet로 학습된 모델로도 representation이 잘됨 ([timm](https://github.com/rwightman/pytorch-image-models)으로 사용하기 편함.)  
+
+- [FaceNet: A Unified Embedding for Face Recognition and Clustering](https://arxiv.org/pdf/1503.03832.pdf)
+
+  * triplet loss
 
 - [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/2010.11929.pdf)
 
