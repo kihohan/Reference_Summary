@@ -1,7 +1,7 @@
 # Reference Summary
 
 ### NLP
-- [Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053.pdf)  -> [요약문](https://soobarkbar.tistory.com/6) (아주 설명이 잘 되어 있다.)
+- [Distributed Representations of Sentences and Documents](https://arxiv.org/pdf/1405.4053.pdf)  -> [요약문](https://soobarkbar.tistory.com/6) (설명이 잘 되어 있다.)
   * PV-DIM:  
     + input: 문장ID and 문장 window사이즈  
     + output: window ‘다음’에 나올 단어 예측(word vectors are shared across all)  
