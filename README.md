@@ -48,12 +48,25 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
 
   * triplet loss
   * anchor, positive, negative 샘플을 입력하여 3개의 출력을 나오게함. 그 출력으로 triplet loss를 계산하여 anchor와 positive가 가깝게하면서 anchor와 negative는 멀게하도록 학습한다. (유클리드 거리 이용)
+  * triplet mining: easy-negative, semi-hard-negative, hard-negative
+  * [정확하지 않음] offline / online: postivte, anchor, negative pair을 manual하게 만듬 / 랜덤하게 batch내에서 triplet을 만듬 (성능이 더 좋음)
+  * 
 
 - [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/2010.11929.pdf)
 
   * Training: img, lable -> MODEL + ARCFACE -> logit, label -> CrossEntropyLoss
   * 2차원 시각화는 논문에서 제시한 1,500개 정도가 잘 되고, 2,000개만 넘어가면 이쁘게 안나옴.(MNIST)
-  * 구현된 코드가 너~~~~무 다양함.
+  * 구현된 코드가 너~~~~무 다양함.  
+  
+### Classification
+- [Towards Open Set Deep Networks](https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/Bendale_Towards_Open_Set_CVPR_2016_paper.pdf)
+
+  * https://bigdata-analyst.tistory.com/258 
+  * https://october25kim.github.io/paper/openset/2020/10/11/openmax-paper/ 
+
+### Regression
+
+### Recommand System
 
 ### ETC
 - [Job2Vec: Job Title Benchmarking with Collective Multi-View Representation Learning](https://arxiv.org/pdf/1801.07698v3.pdf)
