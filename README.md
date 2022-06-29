@@ -52,7 +52,7 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
   * [정확하지 않음] offline / online: postivte, anchor, negative pair을 manual하게 만듬 / 랜덤하게 batch내에서 triplet을 만듬 (성능이 더 좋음)
   * 
 
-- [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/2010.11929.pdf)
+- [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/1801.07698.pdf)
 
   * Training: img, lable -> MODEL + ARCFACE -> logit, label -> CrossEntropyLoss
   * 2차원 시각화는 논문에서 제시한 1,500개 정도가 잘 되고, 2,000개만 넘어가면 이쁘게 안나옴.(MNIST)
