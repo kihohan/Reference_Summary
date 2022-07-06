@@ -29,6 +29,13 @@ and Class Labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=86538
   * RS(Random Swap): 무작위로 문장 내에서 두 단어를 선택하고 위치를 바꾼다. 이것도 n번 반복 ex) 인형탈 알바 너무 쉬워요. → 인형탈 너무 알바 쉬워요.  
   * RD(Random Deletion): 확률 p를 통해 문장 내에 있는 각 단어들을 랜덤하게 삭제한다. ex) 일이 참 편해요. → 일이 편해요.  
   * KoEDA, KorEDA  
+  
+- [Character-level Convolutional Networks for Text
+Classification](https://arxiv.org/pdf/1509.01626.pdf)  
+  * hi  
+ 
+ - [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)  
+   * hi
 
 ### CV
 - [Learning a Similarity Metric Discriminatively, with Application to Face
