@@ -32,10 +32,11 @@ and Class Labels](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=86538
   
 - [Character-level Convolutional Networks for Text
 Classification](https://arxiv.org/pdf/1509.01626.pdf)  
-  * hi  
+  * Character 기반의 Text Classification 제안.
+  * 경험적으로 FastText을 사용하면 성능이 좋음.  
  
  - [Convolutional Neural Networks for Sentence Classification](https://arxiv.org/pdf/1408.5882.pdf)  
-   * hi
+   * 사전학습된 WordVector을 이용하여 Sentence Classification 제안.  
 
 ### CV
 - [Learning a Similarity Metric Discriminatively, with Application to Face
@@ -56,8 +57,7 @@ TRANSFORMERS FOR IMAGE RECOGNITION AT SCALE](https://arxiv.org/pdf/2010.11929.pd
   * triplet loss
   * anchor, positive, negative 샘플을 입력하여 3개의 출력을 나오게함. 그 출력으로 triplet loss를 계산하여 anchor와 positive가 가깝게하면서 anchor와 negative는 멀게하도록 학습한다. (유클리드 거리 이용)
   * triplet mining: easy-negative, semi-hard-negative, hard-negative
-  * [정확하지 않음] offline / online: postivte, anchor, negative pair을 manual하게 만듬 / 랜덤하게 batch내에서 triplet을 만듬 (성능이 더 좋음)
-  * 
+  * [정확하지 않음] offline / online: postivte, anchor, negative pair을 manual하게 만듬 / 랜덤하게 batch내에서 triplet을 만듬 (성능이 더 좋음)  
 
 - [ArcFace: Additive Angular Margin Loss for Deep Face Recognition](https://arxiv.org/pdf/1801.07698.pdf)
 
